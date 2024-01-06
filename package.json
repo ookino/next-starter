@@ -36,10 +36,10 @@
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
       "npx eslint --fix",
-      "npx prettier --config ./.prettierrc.js --write"
+      "npx prettier --config ./.prettierrc.json --write"
     ],
     "**/*.{css,scss,md,html,json}": [
-      "npx prettier --config ./.prettierrc.js --write"
+      "npx prettier --config ./.prettierrc.json --write"
     ]
   },
   "config": {
